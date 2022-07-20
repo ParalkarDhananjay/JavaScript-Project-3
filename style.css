@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial Narrow";
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    border-radius: 100px;
+    font-style: 1.5rem;
+    color: #fffff;
+    transition: cubic-bezier(0.075,0.82,0.165,1) 3s;
+}
+.Hover{
+    transform: scale(2);
+}
